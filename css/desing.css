@@ -1,5 +1,3 @@
-p{
-	font: "Comic Sans";
-	font-size: 20;
-	
+.img-circle {
+	border-radius: 50%;
 }
