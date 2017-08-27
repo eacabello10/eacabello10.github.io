@@ -1,3 +1,18 @@
+
+
+header.masthead .intro-text .myName {
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    display: block;
+    text-transform: uppercase; 
+}
+
+header.masthead .intro-text .myCareer {
+	font-size: 1.5em;
+    font-weight: 600; 
+}
+
 .img-circle {
-	border-radius: 50%;
+	border-radius: 40%;
 }
