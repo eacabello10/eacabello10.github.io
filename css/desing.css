@@ -1,11 +1,10 @@
 
-
 header.masthead .intro-text .myName {
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 300;
     display: block;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 header.masthead .intro-text .myCareer {
@@ -16,3 +15,31 @@ header.masthead .intro-text .myCareer {
 .img-circle {
 	border-radius: 40%;
 }
+
+header.masthead {
+	background: rgba(68, 157, 209, 1) !important;
+	background-image: url("../images/underwater.jpg") !important; 
+	background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+hr.division {
+  max-width: inherit;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px;
+}
+
+
+$color1: rgba(185, 214, 242, 1);
+
+$color2: rgba(23, 39, 83, 1);
+
+$color3: rgba(3, 83, 164, 1);
+
+$color4: rgba(120, 192, 224, 1);
+
+$color5: rgba(68, 157, 209, 1);
