@@ -71,6 +71,14 @@ hr.division {
   border: 0.3em solid rgba(3, 83, 164, 1);
 }
 
+.circle-tools{
+  border: 0.3em solid rgba(68, 157, 209, 1);
+}
+
+.circle-nat-leng{
+  border: 0.3em solid rgba(23, 39, 83, 1);;
+}
+
 .skill-name{
   margin-top: 2em;
 }
