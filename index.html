@@ -110,18 +110,6 @@
               <img class="img-fluid" src="images/Hobbies.jpeg" alt="">
             </a>
           </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="template/img/portfolio/submarine.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Contact Section -->
@@ -158,7 +146,7 @@
               <br>
               <div id="success"></div>
               <div class="form-group">
-                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Send</button>
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton" onclick="sendMail(); return false">Send</button>
               </div>
             </form>
           </div>
@@ -213,12 +201,14 @@
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top d-lg-none">
-      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+      <a class="btn btn-primary js-scroll-trigger" href="#">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
 
     <!-- Portfolio Modals -->
+
+    <!-- Profile modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -233,29 +223,8 @@
                 <div class="modal-body">
                   <h2>Profile</h2>
                   <hr class="star-primary">
-                  <div></div>
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
+                  <img class="img-fluid img-centered" src="images/softwaredevelop.jpg" alt="">
+                  <p>I have experience and interest in web development, mobile applications and software development in general. I'm good at working in teams, under pressure and learning new technologies.</p>
                 </div>
               </div>
             </div>
@@ -263,6 +232,8 @@
         </div>
       </div>
     </div>
+
+          <!-- Work experience modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -275,31 +246,14 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Project Title</h2>
+                  <h2>Work Experience</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="template/img/portfolio/cake.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
+                  <div>
+                    <div class="row row-equal-leyend">
+                      <p>I worked at Pragma S.A. helping a group of software developers with service integrations of the Costa Rica bank. We worked under the SCRUM framework and SOA architecture. Also i helped on the development of a web application.</p>
+                      <img class="img-fluid img-centered" src="images/pragmalogo.png" alt="">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -307,6 +261,9 @@
         </div>
       </div>
     </div>
+
+
+          <!-- Projects modal -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -319,157 +276,19 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Project Title</h2>
+                  <h2>Projects</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="template/img/portfolio/circus.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                  <p>I worked on the following projects:</p>
                   <ul class="list-inline item-details">
-                    <li>Client:
+                    <li>
                       <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                        <p>Web Aplication for consulting error registry of services: I worked mostly on a library that was in charge of all the process of connecting to any type of database and made optimized queries.</p>
                       </strong>
                     </li>
-                    <li>Date:
+                    <li>
                       <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>Project Title</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="template/img/portfolio/game.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>Project Title</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="template/img/portfolio/safe.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>Project Title</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="template/img/portfolio/submarine.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
+                        <a href="https://github.com/ISIS2503-2015-01/Grupo-7">Application for patients and doctors:</a>
+                        <p> A web and mobile application that was in charge of manage the data of pacients for the doctors to see and analize.</p>
                       </strong>
                     </li>
                   </ul>
@@ -484,6 +303,117 @@
       </div>
     </div>
 
+
+          <!-- Skills modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div id="content-skills" display="block">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Skills</h2>
+                  <hr class="star-primary">
+                    <div class="row row-equal-leyend">
+                    <button id="skills-prog-lang-but" class="col-md-4 col-leng">Programming Languages</button>
+                    <button id="skills-tools-but" class="col-md-4 col-herr">Tools, platforms, frameworks, etc.</button>
+                    <button id="skills-nat-lang-but" class="col-md-4 col-nat-leng">Natural Languages</button>  
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div id="skills" style="display: none;" class="row row-equal-leyend">
+                      
+                      <div class="col-md-2 col-hab">
+                        <div class="col-md-12 circle-skills circle-prog-leng">
+                          <div class="row skill-name">
+                            <h5>Java</h5>
+                          </div>
+                          <div class="row skill-time"></div>
+                          <div class="row skill-level">Advance</div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-2 col-hab">
+                        <div class="col-md-12 circle-skills circle-prog-leng">
+                          <div class="row skill-name">
+                            <h5>HTML, CSS, Javascript</h5>
+                          </div>
+                          <div class="row skill-time"></div>
+                          <div class="row skill-level">Advance</div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-2 col-hab">
+                        <div class="col-md-12 circle-skills circle-prog-leng">
+                          <div class="row skill-name">
+                            <h5>SQL</h5>
+                          </div>
+                          <div class="row skill-time"></div>
+                          <div class="row skill-level">Intermediate</div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-2 col-hab">
+                        <div class="col-md-12 circle-skills circle-prog-leng">
+                          <div class="row skill-name">
+                            <h5>C#</h5>
+                          </div>
+                          <div class="row skill-time"></div>
+                          <div class="row skill-level">Basic</div>
+                        </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+          <!-- Hobbies modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Hobbies</h2>
+                  <hr class="star-primary">
+                   <div>
+                    <div class="row row-equal-leyend">
+                      <p>I love to play videogames in general, but my favorite genre are Adventure, Action, Psycologic Horror, RPG and Fantasy.</p>
+                    </div>
+                      <div class="col-md-16">
+                        <img class="image-hobby" src="images/game1.jpg" alt="">
+                        <img class="image-hobby" src="images/game2.jpg" alt="">
+                        <img class="image-hobby" src="images/game3.jpg" alt="">
+                         <img class="image-hobby" src="images/game4.jpg" alt="">
+                        </div>
+
+                      <div class="row row-equal-leyend">
+                      <p>I also love music, and i play the Violin and Guitar. Also i had some music studies in the past.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Bootstrap core JavaScript -->
     <script src="template/vendor/jquery/jquery.min.js"></script>
     <script src="template/vendor/popper/popper.min.js"></script>
@@ -498,6 +428,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="template/js/freelancer.min.js"></script>
+
+        <!-- My script -->
+    <script src="javascript/logic.js"></script>
 
   </body>
 </html>

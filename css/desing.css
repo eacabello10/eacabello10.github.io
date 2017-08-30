@@ -33,6 +33,68 @@ hr.division {
   border-top: solid 5px;
 }
 
+.col-leng, .col-herr, .col-nat-leng {
+  padding: 1%
+}
+
+.col-leng {
+  color: rgba(3, 83, 164, 1);
+}
+.col-herr{
+  color: rgba(68, 157, 209, 1);
+}
+
+.col-nat-leng{
+  color: rgba(23, 39, 83, 1);
+}
+
+.row-equal-leyend{
+    text-align: center !important;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-hab{
+  padding: 3%;
+}
+
+.circle-skills{
+  margin: 0 auto;
+    border-radius: 50%;
+    width: 11em !important;
+    height: 11em;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle-prog-leng{
+  border: 0.3em solid rgba(3, 83, 164, 1);
+}
+
+.skill-name{
+  margin-top: 2em;
+}
+
+#content-skills{
+  padding-bottom: 5em;
+    padding-top: 5em;
+    color: rgba(4, 15, 15, 1);
+    background-color: rgba(252, 255, 252, 1);
+    width: 100%;
+    height: 100%;
+}
+
+.image-hobby
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    max-width: 90%;
+    border-radius: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+
 
 $color1: rgba(185, 214, 242, 1);
 
