@@ -14,11 +14,13 @@ header.masthead .intro-text .myCareer {
 
 .img-circle {
 	border-radius: 40%;
+  width: 300px;
+  height: auto;
 }
 
 header.masthead {
 	background: rgba(68, 157, 209, 1) !important;
-	background-image: url("../images/underwater.jpg") !important; 
+	background-image: url("../images/backgroundblack.jpg") !important; 
 	background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -101,15 +103,3 @@ hr.division {
     display: block;
     margin: 0 auto;
 }
-
-
-
-$color1: rgba(185, 214, 242, 1);
-
-$color2: rgba(23, 39, 83, 1);
-
-$color3: rgba(3, 83, 164, 1);
-
-$color4: rgba(120, 192, 224, 1);
-
-$color5: rgba(68, 157, 209, 1);
